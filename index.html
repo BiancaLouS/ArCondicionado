@@ -12,18 +12,50 @@
 
 
 </head>
-<body class="fundo">
+<body class="fundo" ng-app="">
     <div class="fundoAr">
         <h2>Produtos</h2>
         <img class="linha" src="images/linha.svg" alt="Linha">
-        <nav>
+
+       <nav class="menu">
             <ul>
-                <li><a href="">Ar Condicionado</a></li>
-                <li><a href="">Ar Condicionado Inverter</a></li>
-                <li><a href="">Multi Split</a></li>
-                <li><a href="">Energia Solar</a></li>
+                <input type="radio" ng-model="opcao" value="Ar Condicionado"> Ar Condicionado
+                <input type="radio" ng-model="opcao" value="Ar Condicionado Inverter"> Ar Condicionado Inverter
+                <input type="radio" ng-model="opcao" value="Multi Split"> Multi Split
+                <input type="radio" ng-model="opcao" value="Energia Solar"> Energia Solar
             </ul>
-        </nav>
+       </nav>
+       <div ng-switch="opcao" class="produtos">
+            <div ng-switch-when="Ar Condicionado">
+                <img class="img_pequena" src="images/ArCondicionado.jpg" alt="Ar Condicionado">
+                <img class="img_pequena" src="images/ArCondicionado.jpg" alt="Ar Condicionado">
+                <img class="img_pequena" src="images/ArCondicionado.jpg" alt="Ar Condicionado">
+                <img class="img_pequena" src="images/ArCondicionado.jpg" alt="Ar Condicionado">
+                <img class="img_pequena" src="images/ArCondicionado.jpg" alt="Ar Condicionado">
+            </div>
+            <div ng-switch-when="Ar Condicionado Inverter" class="produtos">
+                <img src="" alt=>
+                <img src="" alt=>
+                <img src="" alt=>
+                <img src="" alt=>
+                <img src="" alt=>
+            </div>
+            <div ng-switch-when="Multi Split" class="produtos">
+                <img src="" alt=>
+                <img src="" alt=>
+                <img src="" alt=>
+                <img src="" alt=>
+                <img src="" alt=>
+            </div>
+            <div ng-switch-when="Energia Solar" class="produtos">
+                <img src="" alt=>
+                <img src="" alt=>
+                <img src="" alt=>
+                <img src="" alt=>
+                <img src="" alt=>
+            </div>
+      </div>     
     </div>
+
 </body>
 </html>
