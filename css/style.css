@@ -47,3 +47,7 @@ input[type=button] {
 .img_pequena{
     width: 200px;
 }
+
+body{
+    cursor: url(images/cursor.cur), default;
+}
