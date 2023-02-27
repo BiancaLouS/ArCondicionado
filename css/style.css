@@ -49,5 +49,6 @@ input[type=button] {
 }
 
 body{
-    cursor: url(images/cursor.cur), default;
+    cursor: url(../images/cursor.cur), default;
+    cursor: url(../images/Pointer.cur), pointer;
 }
