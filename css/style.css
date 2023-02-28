@@ -123,10 +123,9 @@ ul {
 }
 
 .texto1{
-    float: right;
-    margin-right: 10%;
-    margin-top: 250px;
-    
+  position: absolute;
+  right: 350px;
+  top: 300px;
 }
 
 .linha1{
