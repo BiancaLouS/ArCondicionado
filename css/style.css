@@ -4,12 +4,6 @@ body{
     padding: 0;
 }
 
-.fundoAr {
-    background-color: rgb(255, 255, 255);
-    width: 100%;
-    height: 200px;
-}
-
 .linha{
     width: 250px;
     margin: auto;
@@ -142,4 +136,4 @@ ul {
     color:  #38444d;
 }
 
-/* ------------------ Final Apresentação Inicial ---------------*/
+/* ------------------  Apresentação Inicial ---------------*/
