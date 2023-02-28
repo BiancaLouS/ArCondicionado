@@ -117,9 +117,27 @@ ul {
 /* ------------------ Início Apresentação Inicial ---------------*/
 
 .solar{
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 15px 20px 0px rgba(0,0,0,0.2);
     width: 800px;
     margin-left: 10px;
     position: absolute;
     top: 80px;
+}
+
+.texto1{
+    position: absolute;
+    right: 350px;
+    top: 300px;
+    
+}
+
+.linha1{
+    width: 240px;
+    position: absolute;
+    top: 400px;
+    right: 405px;
+}
+
+.txt:hover{
+    color:  #38444d;
 }
