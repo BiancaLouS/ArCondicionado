@@ -13,17 +13,24 @@
 
 <body class="fundo" ng-app="">
     <div class="fundoAr">
-        <div>
-            <img class="logo" src="images/logo.png" alt="logo">
-        </div>
+        <ul>
+            <img style="width: 40px; margin-left: 10px;" src="images/logo.png" alt="logo">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#news">Serviços</a></li>
+            <li><a href="#news">Sobre Nós</a></li>
+            <li><a href="#news">Contato</a></li>
 
-        <div class="menu">
-            <a href="Home">Home</a>
-            <a href="Home">Serviços</a>
-            <a href="Home">Sobre Nós</a>
-            <a href="Home">Produtos</a>
-            <a href="Home">Contato</a>
-        </div>
+
+            <li class="dropdown">
+              <a href="javascript:void(0)" class="dropbtn">Produtos</a>
+              <div class="dropdown-content">
+                <a href="#">Ar Condicionado</a>
+                <a href="#">Ar Condicionado Inverter</a>
+                <a href="#">Multi Split</a>
+                <a href="#">Energia Solar</a>
+              </div>
+            </li>
+          </ul>
 
         <h2>Produtos</h2>
         <img class="linha" src="images/linha.svg" alt="Linha">
