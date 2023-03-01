@@ -2,6 +2,8 @@
 body{
     margin: 0;
     padding: 0;
+    cursor: url('../images/cursor.cur'), default;
+    
 }
 
 .fundo{
@@ -9,10 +11,7 @@ body{
 }
 
 
-/* body{
-    cursor: url(../images/cursor.cur), default;
-    cursor: url(../images/Pointer.cur), pointer;
-} */
+
 
  /* ------------------------- MENU/DROPDOWN -------------------  */
 
@@ -42,6 +41,7 @@ ul {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    cursor: url('../images/pointer.cur'), pointer;
   }
   
   li a:hover, .dropdown:hover .dropbtn {
