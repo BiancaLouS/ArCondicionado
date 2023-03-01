@@ -15,10 +15,11 @@
     
         <ul>
             <img style="width: 40px; margin-left: 30px;" src="images/logo.png" alt="logo">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#servicos">Serviços</a></li>
-            <li><a href="#sobre">Sobre Nós</a></li>
+            
             <li><a href="#contato">Contato</a></li>
+            <li><a href="#sobre">Sobre Nós</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="index.php">Home</a></li>
 
 
             <li class="dropdown">
@@ -30,6 +31,9 @@
                 <a href="#">Energia Solar</a>
               </div>
             </li>
+
+
+            
           </ul>
     </div>
 
