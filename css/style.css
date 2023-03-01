@@ -188,3 +188,14 @@ ul {
 
 /* ------------------  Inicio Sobre Nós ---------------*/
 
+.texto4{
+  color: #38444d;
+  text-align: center;
+  position: relative;
+  top: 14px;
+}
+
+.txt3:hover{
+  color: #005a9e;
+}
+

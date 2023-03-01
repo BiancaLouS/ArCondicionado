@@ -150,7 +150,11 @@
     <!-- FIM SERVICOS  -->
 
 <section>
-    
+    <div class="text04 txt3">
+        <h1>
+            Sobre Nós
+        </h1>
+    </div>
 
 </section>
 
