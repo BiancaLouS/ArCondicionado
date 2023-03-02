@@ -103,7 +103,7 @@
             </div>
 
             <div>
-                <img class="img-servicos servicos-grid " src="images/InstalandoArEmpresa.jpg" alt="Instalação de Ar Condicionado em Empresas">
+                <img class="img-servicos servicos-grid" src="images/InstalandoArEmpresa.jpg" alt="Instalação de Ar Condicionado em Empresas">
             </div>
         
             <div class="txt-grid txt2">
@@ -149,12 +149,15 @@
 
     <!-- FIM SERVICOS  -->
 
+    <!-- INICIO SOBRE NÓS  -->
+
 <section>
-    <div class="text04 txt3">
-        <h1>
-            Sobre Nós
-        </h1>
-    </div>
+    <div>
+        <h1 class="texto4 txt3" id="sobre">
+                Sobre Nós
+         </h1>
+            <img class="linha2" src="images/linha.svg" alt="linha bonita">
+     </div>
 
 </section>
 

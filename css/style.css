@@ -190,9 +190,7 @@ ul {
 
 .texto4{
   color: #38444d;
-  text-align: center;
-  position: relative;
-  top: 14px;
+  margin: 0px;
 }
 
 .txt3:hover{
