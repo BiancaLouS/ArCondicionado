@@ -161,10 +161,10 @@
 
             <br><br><br>
             <p class="texto5 txt3">
-            A AGYX é uma plataforma de soluções em serviços de Instalação de Ar-Condicionado, <br>
+            A CONGELADOS é uma plataforma de soluções em serviços de Instalação de Ar-Condicionado, <br>
             que tem como missão atender as necessidades dos consumidores, prestando o melhor serviço com a  <br>
             maior e mais qualificada rede de profissionais <br>
-            especializados do Brasil. A Agyx tem como objetivo entregar a solução ideal ao cliente, com Qualidade, <br>
+            especializados do Brasil. A Congelados tem como objetivo entregar a solução ideal ao cliente, com Qualidade, <br>
             Segurança, Praticidade e <br>
             Transparência em todos os serviços prestados.
             </p>
@@ -175,6 +175,7 @@
         </div>
     </section>
 
+    <!-- FIM SOBRE NÓS  -->
   
 
 
