@@ -218,25 +218,25 @@
 
             <div class="imagens-produtos" ng-show="inverter">
                 <div>
-                    <img src="images/inverter2.png" alt="">
+                    <img src="images/inverter1.jpg" alt="">
                 </div>
                 <div>
                     <img src="images/inverter2.png" alt="">
                 </div>
                 <div>
-                    <img src="images/inverter2.png" alt="">
+                    <img src="images/inverter3.jpg" alt="">
                 </div>
                 <div>
-                    <img src="images/inverter2.png" alt="">
+                    <img src="images/inverter4.jpg" alt="">
                 </div>
                 <div>
-                    <img src="images/inverter2.png" alt="">
+                    <img src="images/inverter5.jpg" alt="">
                 </div>
             </div>
 
             <div class="imagens-produtos" ng-show="multisplit">
                 <div>
-                    <img src="images/armulti1.jpg" alt="">
+                    <img src="images/armulti-1.jpg" alt="Ar Multi Split 1">
                 </div>
                 <div>
                     <img src="images/armulti2.jpg" alt="">
@@ -254,19 +254,19 @@
 
             <div class="imagens-produtos" ng-show="energiasolar">
                 <div>
-                    <img src="images/energia.webp" alt="">
+                    <img src="images/energia1.jpg" alt="">
                 </div>
                 <div>
-                    <img src="images/energia.webp" alt="">
+                    <img src="images/energia2.jpg" alt="">
                 </div>
                 <div>
-                    <img src="images/energia.webp" alt="">
+                    <img src="images/energia3.jpg" alt="">
                 </div>
                 <div>
-                    <img src="images/energia.webp" alt="">
+                    <img src="images/energia4.jpg" alt="">
                 </div>
                 <div>
-                    <img src="images/energia.webp" alt="">
+                    <img src="images/energia5.jpg" alt="">
                 </div>
             </div>
 
