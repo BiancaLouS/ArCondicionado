@@ -42,7 +42,7 @@ ul {
   }
   
   li a:hover, .dropdown:hover .dropbtn {
-    background-color: rgb(13, 136, 194);
+    background-color: rgb(13, 19, 172);
   }
   
   li.dropdown {
@@ -226,3 +226,98 @@ ul {
 }
 
 /* ------------------  Fim Sobre Nós ---------------*/
+
+/* ------------------  Início Produtos ---------------*/
+
+.produtos {
+  background-color: #809aad;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 25px;
+}
+
+.produtos-header {
+  margin: 15px;
+}
+
+.titulo {
+  color: #38444d;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+ 
+}
+
+.titulo:hover{
+  color: #e2e0e0;
+}
+
+
+.linha4{
+  width: 240px;
+  margin-left: 1%;
+  position: relative;
+  top: 2px;
+}
+
+.conteudo-produtos-info-divisoria {
+  width: 100%;
+}
+
+.produtos-opcoesbtns {
+  display: flex;
+  margin: 20px auto;
+  cursor: url('../images/pointer.cur'), pointer;
+}
+
+
+.produtos-opcoesbtns div{
+  margin: 20px;
+}
+
+.imagens-produtos {
+  display: flex;
+  
+}
+
+.imagens-produtos div{
+  margin: 10px;
+  cursor: url('..images/pointer.cur'), pointer;
+}
+
+.imagens-produtos img {
+  width: 70%;
+  border-radius: 20px;
+}
+
+.imagens-produtos img:hover {
+  width: 80%;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  
+}
+
+.opcao{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12pt;
+    cursor: url('../images/pointer.cur'), pointer;
+}
+
+.opcao:hover {
+  background-color: rgb(13, 19, 172);
+  -webkit-transition: all 0.1s ease;
+  -moz-transition: all 0.1s ease;
+  -o-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+}
+
+/* ------------------  Fim Produtos ---------------*/

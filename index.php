@@ -14,7 +14,7 @@
 
 </head>
 
-<body class="fundo" ng-app="">
+<body class="fundo" ng-app="meuApp" ng-controller="meuController">
 
 <!-- INICIO APRESENTAÇÃO INICIAL  -->
 
@@ -177,6 +177,142 @@
 
     <!-- FIM SOBRE NÓS  -->
   
+    <!-- COMEÇO PRODUTOS  -->
+
+    <section class="produtos" id="produtos">
+
+            <div class="produtos-header">
+
+                <h1 class="titulo">Produtos Gerais</h1>
+                <img class="linha4" src="images/linha.svg" alt="Linha Divisória">
+
+
+            </div>
+            
+            <div class="produtos-opcoesbtns">
+
+                <div class="opcao" ng-mouseover="funcArcondicionado()">Ar Condicionado</div>
+                <div class="opcao" ng-mouseover="funcInverter()">Ar Condicionado Inverter</div>
+                <div class="opcao" ng-mouseover="funcMultisplit()">Multi Split</div>
+                <div class="opcao" ng-mouseover="funcEnergiasolar()">Energia Solar</div>
+
+            </div>
+
+            <div class="imagens-produtos" ng-show="arcondicionado">
+                <div>
+                    <img src="images/ar4.png" alt="">
+                </div>
+                <div>
+                    <img src="images/ar4.png" alt="">
+                </div>
+                <div>
+                    <img src="images/ar4.png" alt="">
+                </div>
+                <div>
+                    <img src="images/ar4.png" alt="">
+                </div>
+                <div>
+                    <img src="images/ar4.png" alt="">
+                </div>
+            </div>
+
+            <div class="imagens-produtos" ng-show="inverter">
+                <div>
+                    <img src="images/inverter1.webp" alt="">
+                </div>
+                <div>
+                    <img src="images/inverter1.webp" alt="">
+                </div>
+                <div>
+                    <img src="images/inverter1.webp" alt="">
+                </div>
+                <div>
+                    <img src="images/inverter1.webp" alt="">
+                </div>
+                <div>
+                    <img src="images/inverter1.webp" alt="">
+                </div>
+            </div>
+
+            <div class="imagens-produtos" ng-show="multisplit">
+                <div>
+                    <img src="images/armulti1.jpg" alt="">
+                </div>
+                <div>
+                    <img src="images/armulti1.jpg" alt="">
+                </div>
+                <div>
+                    <img src="images/armulti1.jpg" alt="">
+                </div>
+                <div>
+                    <img src="images/armulti1.jpg" alt="">
+                </div>
+                <div>
+                    <img src="images/armulti1.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="imagens-produtos" ng-show="energiasolar">
+                <div>
+                    <img src="images/energia.webp" alt="">
+                </div>
+                <div>
+                    <img src="images/energia.webp" alt="">
+                </div>
+                <div>
+                    <img src="images/energia.webp" alt="">
+                </div>
+                <div>
+                    <img src="images/energia.webp" alt="">
+                </div>
+                <div>
+                    <img src="images/energia.webp" alt="">
+                </div>
+            </div>
+
+            <script>
+		        var app = angular.module('meuApp', []);
+		            app.controller('meuController', function($scope) {
+			            $scope.arcondicionado = true;
+			            $scope.inverter = false;
+			            $scope.multisplit = false;
+                        $scope.energiasolar = false;
+			
+			        $scope.funcArcondicionado = function() {
+				        $scope.arcondicionado = true;
+				        $scope.inverter = false;
+				        $scope.energiasolar = false;
+				        $scope.multisplit = false;
+			        }
+
+			        $scope.funcInverter = function() {
+				        $scope.inverter = true;
+				        $scope.arcondicionado = false;
+				        $scope.energiasolar = false;
+				        $scope.multisplit = false;
+			        }
+
+			        $scope.funcMultisplit = function() {
+				        $scope.multisplit = true;
+				        $scope.arcondicionado = false;
+				        $scope.inverter = false;
+                        $scope.energiasolar = false;
+			        }
+
+			        $scope.funcEnergiasolar = function() {
+				        $scope.energiasolar = true;
+				        $scope.arcondicionado = false;
+				        $scope.inverter = false;
+				        $scope.multisplit = false;
+			        }
+		        });
+	        </script>
+            
+        </section>
+        
+    </main>  
+
+    <!-- COMEÇO PRODUTOS  -->
 
 
 </body>
