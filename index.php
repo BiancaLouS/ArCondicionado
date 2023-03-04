@@ -151,16 +151,31 @@
 
     <!-- INICIO SOBRE NÓS  -->
 
-<section>
-    <div>
-        <h1 class="texto4 txt3" id="sobre">
-                Sobre Nós
-         </h1>
-            <img class="linha2" src="images/linha.svg" alt="linha bonita">
-     </div>
+    <section>
+        <div class="grid-texto">
+            <h1 id="sobre" class="texto4 txt3">
+                Sobre nós
+            </h1>
+            <br><br><br>
+            <img class="linha3" src="images/linha.svg" alt="linha bonita">
 
-</section>
+            <br><br><br>
+            <p class="texto5 txt3">
+            A AGYX é uma plataforma de soluções em serviços de Instalação de Ar-Condicionado, <br>
+            que tem como missão atender as necessidades dos consumidores, prestando o melhor serviço com a  <br>
+            maior e mais qualificada rede de profissionais <br>
+            especializados do Brasil. A Agyx tem como objetivo entregar a solução ideal ao cliente, com Qualidade, <br>
+            Segurança, Praticidade e <br>
+            Transparência em todos os serviços prestados.
+            </p>
+        </div>
+        
+        <div>
+            <img src="images/logo.png" alt="logo" class="img-logo">
+        </div>
+    </section>
 
+  
 
 
 </body>

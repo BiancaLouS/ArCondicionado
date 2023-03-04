@@ -188,12 +188,39 @@ ul {
 
 /* ------------------  Inicio Sobre Nós ---------------*/
 
+.grid-texto{
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 50px;
+  margin-left: 250px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.linha3{
+  width: 240px;
+  margin-left: 42.60%;
+  position: relative;
+  top: 2px;
+}
+
+
 .texto4{
   color: #38444d;
-  margin: 0px;
+  margin-left: 60px;
 }
 
 .txt3:hover{
   color: #005a9e;
 }
 
+.texto5{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12pt;
+  text-align: center;
+  margin-left: 60px;
+}
+
+.img-logo{
+  margin-left: 35.65%;
+}
