@@ -200,37 +200,37 @@
 
             <div class="imagens-produtos" ng-show="arcondicionado">
                 <div>
-                    <img src="images/ar4.png" alt="">
+                    <img src="images/ar1.jpg" alt="">
                 </div>
                 <div>
-                    <img src="images/ar4.png" alt="">
+                    <img src="images/ar2.jpg" alt="">
                 </div>
                 <div>
-                    <img src="images/ar4.png" alt="">
+                    <img src="images/ar3.jpg" alt="">
                 </div>
                 <div>
-                    <img src="images/ar4.png" alt="">
+                    <img src="images/ar4.jpg" alt="">
                 </div>
                 <div>
-                    <img src="images/ar4.png" alt="">
+                    <img src="images/ar5.jpg" alt="">
                 </div>
             </div>
 
             <div class="imagens-produtos" ng-show="inverter">
                 <div>
-                    <img src="images/inverter1.webp" alt="">
+                    <img src="images/inverter2.png" alt="">
                 </div>
                 <div>
-                    <img src="images/inverter1.webp" alt="">
+                    <img src="images/inverter2.png" alt="">
                 </div>
                 <div>
-                    <img src="images/inverter1.webp" alt="">
+                    <img src="images/inverter2.png" alt="">
                 </div>
                 <div>
-                    <img src="images/inverter1.webp" alt="">
+                    <img src="images/inverter2.png" alt="">
                 </div>
                 <div>
-                    <img src="images/inverter1.webp" alt="">
+                    <img src="images/inverter2.png" alt="">
                 </div>
             </div>
 
@@ -239,16 +239,16 @@
                     <img src="images/armulti1.jpg" alt="">
                 </div>
                 <div>
-                    <img src="images/armulti1.jpg" alt="">
+                    <img src="images/armulti2.jpg" alt="">
                 </div>
                 <div>
-                    <img src="images/armulti1.jpg" alt="">
+                    <img src="images/armulti3.jpg" alt="">
                 </div>
                 <div>
-                    <img src="images/armulti1.jpg" alt="">
+                    <img src="images/armulti4.jpg" alt="">
                 </div>
                 <div>
-                    <img src="images/armulti1.jpg" alt="">
+                    <img src="images/armulti5.jpg" alt="">
                 </div>
             </div>
 
