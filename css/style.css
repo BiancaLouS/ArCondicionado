@@ -320,3 +320,28 @@ ul {
 }
 
 /* ------------------  Fim Produtos ---------------*/
+
+/* ------------------  Inicio Contato ---------------*/
+
+.grid-form{
+  float: right;
+  margin-right: 250px;
+  margin-top: 150px;
+  text-align: center;
+}
+
+.grid-form:hover{
+  color: #005a9e;
+}
+
+.linha5{
+  width: 240px;
+  margin-left: 2.60%;
+  position: relative;
+  top: 0px;
+  margin-bottom: 10px;
+}
+
+
+
+

@@ -317,8 +317,20 @@
         
     </main>  
 
-    <!-- COMEÇO PRODUTOS  -->
+    <!-- FIM PRODUTOS  -->
 
+    <!-- COMEÇO CONTATO  -->
+
+    <div class="grid-contato">
+        <img src="images/armostra.png" alt="Ar condicionado">
+
+        <div class="grid-form">
+            <h2 class="titulo2" id="contato"> Contato </h2>
+            <img class="linha5" src="../ArCondicionado/images/linha.svg" alt="Linha Divisória">
+        </div>
+
+        
+    </div>
 
 </body>
 </html>
