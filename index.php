@@ -189,14 +189,19 @@
 
             </div>
             
-            <div class="produtos-opcoesbtns">
+            <div class="fundo4">
+    
+                <ul class="produtos-opcoesbtns">
+                    
+                    <li class="opcao" ng-mouseover="funcArcondicionado()">Ar Condicionado</li>
+                    <li class="opcao" ng-mouseover="funcInverter()">Ar Condicionado Inverter</li>
+                    <li class="opcao" ng-mouseover="funcMultisplit()">Multi Split</li>
+                    <li class="opcao" ng-mouseover="funcEnergiasolar()">Energia Solar</li>
 
-                <div class="opcao" ng-mouseover="funcArcondicionado()">Ar Condicionado</div>
-                <div class="opcao" ng-mouseover="funcInverter()">Ar Condicionado Inverter</div>
-                <div class="opcao" ng-mouseover="funcMultisplit()">Multi Split</div>
-                <div class="opcao" ng-mouseover="funcEnergiasolar()">Energia Solar</div>
-
+            
+                </ul>
             </div>
+ 
 
             <div class="imagens-produtos" ng-show="arcondicionado">
                 <div>
