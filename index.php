@@ -239,16 +239,16 @@
                     <img src="images/armulti-1.jpg" alt="Ar Multi Split 1">
                 </div>
                 <div>
-                    <img src="images/armulti2.jpg" alt="">
+                    <img src="images/armulti2.jpg" alt="Ar Multi Split 2">
                 </div>
                 <div>
-                    <img src="images/armulti3.jpg" alt="">
+                    <img src="images/armulti3.jpg" alt="Ar Multi Split 3">
                 </div>
                 <div>
-                    <img src="images/armulti4.jpg" alt="">
+                    <img src="images/armulti4.jpg" alt="Ar Multi Split 4">
                 </div>
                 <div>
-                    <img src="images/armulti5.jpg" alt="">
+                    <img src="images/armulti5.jpg" alt="Ar Multi Split 5">
                 </div>
             </div>
 
