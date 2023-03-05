@@ -184,6 +184,8 @@ ul {
   color: #38444d;
 }
 
+
+
 /* ------------------  Fim Serviços ---------------*/
 
 /* ------------------  Inicio Sobre Nós ---------------*/
@@ -265,7 +267,7 @@ ul {
 }
 
 
-.produtos-opcoesbtns {
+.categoria {
   display: flex;
   margin-bottom: 35px;
   border-radius: 10px;
@@ -274,17 +276,13 @@ ul {
 }
 
 
-.produtos-opcoesbtns div{
-  margin: 20px;
-}
-
 .imagens-produtos {
   display: flex;
   
 }
 
 .imagens-produtos div{
-  margin: 10px;
+  margin-left: 30px;
   cursor: url('..images/pointer.cur'), pointer;
 }
 

@@ -191,7 +191,7 @@
             
             <div class="fundo4">
     
-                <ul class="produtos-opcoesbtns">
+                <ul class="categoria">
                     
                     <li class="opcao" ng-mouseover="funcArcondicionado()">Ar Condicionado</li>
                     <li class="opcao" ng-mouseover="funcInverter()">Ar Condicionado Inverter</li>
