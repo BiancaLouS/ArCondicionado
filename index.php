@@ -1,3 +1,13 @@
+<?php 
+    //Consulta para recuperar os produtos do banco de dados
+    include 'conn/connect.php';
+    $arCondicionado = $conn->query("SELECT * FROM produto WHERE id_tipo_produto = 1 ORDER BY id;");
+    $inverter = $conn->query("SELECT * FROM produto WHERE id_tipo_produto = 2 ORDER BY id;");
+    $multiSplit = $conn->query("SELECT * FROM produto WHERE id_tipo_produto = 3 ORDER BY id;");
+    $energiaSolar = $conn->query("SELECT * FROM produto WHERE id_tipo_produto = 4 ORDER BY id;");
+?>
+
+
 <!DOCTYPE html>
 <html lang="pt_BR">
 <head>
@@ -204,76 +214,39 @@
  
 
             <div class="imagens-produtos" ng-show="arcondicionado">
-                <div>
-                    <img src="images/ar1.jpg" alt="Ar Condicionado 1">
-                </div>
-                <div>
-                    <img src="images/ar2.jpg" alt="Ar Condicionado 2">
-                </div>
-                <div>
-                    <img src="images/ar3.jpg" alt="Ar Condicionado 3">
-                </div>
-                <div>
-                    <img src="images/ar4.jpg" alt="Ar Condicionado 4">
-                </div>
-                <div>
-                    <img src="images/ar5.jpg" alt="Ar Condicionado 5">
-                </div>
-            </div>
+            <?php while ($row = $arCondicionado->fetch_assoc()) { ?>
+                <a href="detalhes.php?id=<?php echo $row['id']; ?>" role="button">
+                    <img src="../ArCondicionado/images/<?php echo $row['imagem']; ?>" alt="">
+                </a>
+            <?php } ?>
+        </div>
 
-            <div class="imagens-produtos" ng-show="inverter">
-                <div>
-                    <img src="images/inverter1.jpg" alt="Ar Condicionado Inverter 1">
-                </div>
-                <div>
-                    <img src="images/inverter2.png" alt="Ar Condicionado Inverter 2">
-                </div>
-                <div>
-                    <img src="images/inverter3.jpg" alt="Ar Condicionado Inverter 3">
-                </div>
-                <div>
-                    <img src="images/inverter4.jpg" alt="Ar Condicionado Inverter 4">
-                </div>
-                <div>
-                    <img src="images/inverter5.jpg" alt="Ar Condicionado Inverter 5">
-                </div>
-            </div>
+        <div class="imagens-produtos" ng-show="inverter">
+            <?php while ($row = $inverter->fetch_assoc()) { ?>
+                <a href="detalhes.php?id=<?php echo $row['id']; ?>" role="button">
+                    <img src="../ArCondicionado/images/<?php echo $row['imagem']; ?>" alt="">
+                </a>
+            <?php } ?>
+        </div>
 
-            <div class="imagens-produtos" ng-show="multisplit">
-                <div>
-                    <img src="images/armulti-1.jpg" alt="Ar Multi Split 1">
-                </div>
-                <div>
-                    <img src="images/armulti2.jpg" alt="Ar Multi Split 2">
-                </div>
-                <div>
-                    <img src="images/armulti3.jpg" alt="Ar Multi Split 3">
-                </div>
-                <div>
-                    <img src="images/armulti4.jpg" alt="Ar Multi Split 4">
-                </div>
-                <div>
-                    <img src="images/armulti5.jpg" alt="Ar Multi Split 5">
-                </div>
-            </div>
+        <div class="imagens-produtos" ng-show="multisplit">
+            <?php while ($row = $multiSplit->fetch_assoc()) { ?>
+                <a href="detalhes.php?id=<?php echo $row['id']; ?>" role="button">
+                    <img src="../ArCondicionado/images/<?php echo $row['imagem']; ?>" alt="">
+                </a>
+            <?php } ?>
+        </div>
 
-            <div class="imagens-produtos" ng-show="energiasolar">
-                <div>
-                    <img src="images/energia1.jpg" alt="Painel Solar 1">
-                </div>
-                <div>
-                    <img src="images/energia2.jpg" alt="Painel Solar 2">
-                </div>
-                <div>
-                    <img src="images/energia3.jpg" alt="Painel Solar 3">
-                </div>
-                <div>
-                    <img src="images/energia4.jpg" alt="Painel Solar 4">
-                </div>
-                <div>
-                    <img src="images/energia5.jpg" alt="Painel Solar 5">
-                </div>
-            </div>
+    <div class="imagens-produtos" ng-show="energiasolar">
+        <?php while ($row = $energiaSolar->fetch_assoc()) { ?>
+            <tr>
+                <td>
+                    <a href="detalhes.php?id=<?php echo $row['id']; ?>" role="button">
+                        <img src="../ArCondicionado/images/<?php echo $row['imagem']; ?>">
+                    </a>
+                </td>
+            </tr>
+        <?php } ?>
 
             <script>
 		        var app = angular.module('meuApp', []);
