@@ -332,7 +332,7 @@
                 <div class="form-header">
                     
                     <div class="title">
-                        <h1 style="margin-left: 38%; margin-bottom: 10px;">Contato</h1>
+                        <h1 style="margin-left: 39%; margin-bottom: 10px;">Contato</h1>
                     </div>
 
                     <div class="linha5">
@@ -361,7 +361,7 @@
 
                 </div>
 
-                <div class="continue-button">
+                <div class="enviar-botao">
                     <button><a href="#">Enviar Mensagem</a> </button>
                 </div>
             </form>

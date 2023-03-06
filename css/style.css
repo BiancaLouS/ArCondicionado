@@ -169,7 +169,7 @@ ul {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto;
   padding: 10px;
-  margin-left: 90px;
+  margin-left: 30px;
   margin-top: 10px;
 }
 .servicos-grid {
@@ -192,16 +192,18 @@ ul {
 
 .linha3{
   width: 240px;
-  margin-left: 42.60%;
+  margin-left: 44.60%;
   position: relative;
-  top: 0px;
+  bottom: 60px;
 }
 
 
 .texto4{
   color: #000000;
-  margin-left: 60px;
-  margin-bottom: 1px;
+  text-align: center;
+  margin-left: 18px;
+  top: -50px;
+  margin-bottom: 20px;
 }
 
 .txt3:hover{
@@ -212,6 +214,8 @@ ul {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 12pt;
   text-align: center;
+  margin-bottom: 50px;
+  margin-top: -35px;
   margin-left: 60px;
 }
 
@@ -352,7 +356,7 @@ ul {
 
 .linha5{
 	width: 240px;
-	margin-left: 28%;
+	margin-left: 30%;
 	position: relative;
   }
 
@@ -365,9 +369,10 @@ ul {
 }
 
 .input-box {
-    display: inline-block;
+    display: flex;
     flex-direction: column;
     margin-bottom: 1rem;
+    padding: 15px;
 }
 
 .input-box input {
@@ -379,28 +384,23 @@ ul {
     font-size: 0.8rem;
 }
 
-
-.gender-input input {
-    margin-right: 0.35rem;
-}
-
 .gender-input label {
     font-size: 0.81rem;
     font-weight: 600;
     color: #000000c0;
 }
 
-.continue-button button {
+.enviar-botao button {
     width: 100%;
     margin-top: 2.5rem;
     border: none;
-    background-color: #2e26cd;
+    background-color: rgb(13, 19, 172);
     padding: 0.62rem;
     border-radius: 5px;
     cursor: pointer;
 }
 
-.continue-button button a {
+.enviar-botao button a {
     text-decoration: none;
     font-size: 0.93rem;
     font-weight: 500;
