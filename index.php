@@ -362,7 +362,7 @@
                 </div>
 
                 <div class="enviar-botao">
-                    <button><a href="#">Enviar Mensagem</a> </button>
+                    <button><a href="envia.php">Enviar Mensagem</a> </button>
                 </div>
             </form>
 

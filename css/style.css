@@ -39,6 +39,7 @@ ul {
     padding: 14px 16px;
     text-decoration: none;
     cursor: url('../images/pointer.cur'), pointer;
+    transition: .3s;
   }
   
   li a:hover, .dropdown:hover .dropbtn {
