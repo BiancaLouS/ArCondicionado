@@ -331,8 +331,8 @@
 
                 <div class="form-header">
                     
-                    <div class="title">
-                        <h1 style="margin-left: 39%; margin-bottom: 10px;">Contato</h1>
+                    <div class="titulo2">
+                        <h1 style="margin-left: 41%; margin-bottom: 10px;">Contato</h1>
                     </div>
 
                     <div class="linha5">
@@ -346,7 +346,7 @@
                 <div class="input-group">
                     <div class="input-box">
                         <label for="nome">Nome</label>
-                        <input id="nome" type="text" name="firstname" placeholder="Digite seu primeiro nome" required>
+                        <input id="nome" type="text" name="firstname" placeholder="Digite seu nome" required>
                     </div>
                     
                     <div class="input-box">
@@ -365,6 +365,14 @@
                     <button><a href="#">Enviar Mensagem</a> </button>
                 </div>
             </form>
+
+            <div class="informacao">
+                 Praça Maria Henriqueta, nº 241 - Jacubá
+            </div>
+
+            <div class="informacao">
+                 (11) 2166-4704
+            </div>
         </div>
 
 </body>

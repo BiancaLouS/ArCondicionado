@@ -323,8 +323,17 @@ ul {
     display: flex;
 }
 
+.titulo2{
+  font-size: small;
+}
+
+.titulo2:hover{
+  color: #005a9e;
+}
+
+
 .armostra {
-    width: 50%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -356,7 +365,7 @@ ul {
 
 .linha5{
 	width: 240px;
-	margin-left: 30%;
+	margin-left: 28%;
 	position: relative;
   }
 
@@ -384,15 +393,9 @@ ul {
     font-size: 0.8rem;
 }
 
-.gender-input label {
-    font-size: 0.81rem;
-    font-weight: 600;
-    color: #000000c0;
-}
-
 .enviar-botao button {
     width: 100%;
-    margin-top: 2.5rem;
+    margin-top: 10px;
     border: none;
     background-color: rgb(13, 19, 172);
     padding: 0.62rem;
@@ -407,6 +410,11 @@ ul {
     color: #fff;
 }
 
+.informacao{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
+  margin-top: 20px;
+}
 
 
 
