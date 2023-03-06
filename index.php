@@ -205,37 +205,37 @@
 
             <div class="imagens-produtos" ng-show="arcondicionado">
                 <div>
-                    <img src="images/ar1.jpg" alt="">
+                    <img src="images/ar1.jpg" alt="Ar Condicionado 1">
                 </div>
                 <div>
-                    <img src="images/ar2.jpg" alt="">
+                    <img src="images/ar2.jpg" alt="Ar Condicionado 2">
                 </div>
                 <div>
-                    <img src="images/ar3.jpg" alt="">
+                    <img src="images/ar3.jpg" alt="Ar Condicionado 3">
                 </div>
                 <div>
-                    <img src="images/ar4.jpg" alt="">
+                    <img src="images/ar4.jpg" alt="Ar Condicionado 4">
                 </div>
                 <div>
-                    <img src="images/ar5.jpg" alt="">
+                    <img src="images/ar5.jpg" alt="Ar Condicionado 5">
                 </div>
             </div>
 
             <div class="imagens-produtos" ng-show="inverter">
                 <div>
-                    <img src="images/inverter1.jpg" alt="">
+                    <img src="images/inverter1.jpg" alt="Ar Condicionado Inverter 1">
                 </div>
                 <div>
-                    <img src="images/inverter2.png" alt="">
+                    <img src="images/inverter2.png" alt="Ar Condicionado Inverter 2">
                 </div>
                 <div>
-                    <img src="images/inverter3.jpg" alt="">
+                    <img src="images/inverter3.jpg" alt="Ar Condicionado Inverter 3">
                 </div>
                 <div>
-                    <img src="images/inverter4.jpg" alt="">
+                    <img src="images/inverter4.jpg" alt="Ar Condicionado Inverter 4">
                 </div>
                 <div>
-                    <img src="images/inverter5.jpg" alt="">
+                    <img src="images/inverter5.jpg" alt="Ar Condicionado Inverter 5">
                 </div>
             </div>
 
@@ -259,19 +259,19 @@
 
             <div class="imagens-produtos" ng-show="energiasolar">
                 <div>
-                    <img src="images/energia1.jpg" alt="">
+                    <img src="images/energia1.jpg" alt="Painel Solar 1">
                 </div>
                 <div>
-                    <img src="images/energia2.jpg" alt="">
+                    <img src="images/energia2.jpg" alt="Painel Solar 2">
                 </div>
                 <div>
-                    <img src="images/energia3.jpg" alt="">
+                    <img src="images/energia3.jpg" alt="Painel Solar 3">
                 </div>
                 <div>
-                    <img src="images/energia4.jpg" alt="">
+                    <img src="images/energia4.jpg" alt="Painel Solar 4">
                 </div>
                 <div>
-                    <img src="images/energia5.jpg" alt="">
+                    <img src="images/energia5.jpg" alt="Painel Solar 5">
                 </div>
             </div>
 
@@ -321,18 +321,18 @@
 
     <!-- COMEÇO CONTATO  -->
 
-    <div class="container">
+    <div class="container" id="contato">
         <div class="armostra">
             <img src="images/armostra.png" alt="">
         </div>
         
         <div class="form">
-            <form action="#">
+            <form action="envia.php" name="form_contato" method="post">
 
                 <div class="form-header">
                     
-                    <div class="title">
-                        <h1 style="margin-left: 38%; margin-bottom: 10px;">Contato</h1>
+                    <div class="titulo2">
+                        <h1 style="margin-left: 41%; margin-bottom: 10px;">Contato</h1>
                     </div>
 
                     <div class="linha5">
@@ -345,27 +345,40 @@
 
                 <div class="input-group">
                     <div class="input-box">
-                        <label for="nome">Nome</label>
-                        <input id="nome" type="text" name="firstname" placeholder="Digite seu primeiro nome" required>
+                        <strong> Nome </strong>   
+                        <input type="text" name="nome_contato" placeholder="Digite seu nome" required>
                     </div>
                     
                     <div class="input-box">
-                        <label for="email">E-mail</label>
-                        <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required>
+                        <strong> E-mail </strong> 
+                        <input type="email" name="email_contato" placeholder="Digite seu e-mail" required>
                     </div>
 
                     <div class="input-box">
-                        <label for="mesagem">Mensagem</label>
-                        <input id="email" type="text" name="email" placeholder="O que quer nos dizer?" required>
+                        <strong> Mensagem </strong>  
+                        <input  type="text" name="msg_contato" placeholder="O que quer nos dizer?" required>
                     </div>
 
                 </div>
 
-                <div class="continue-button">
+                <div class="enviar-botao">
                     <button><a href="#">Enviar Mensagem</a> </button>
                 </div>
             </form>
-        </div>
+
+            <div class="informacao">
+                 Praça Maria Henriqueta, nº 241 - Jacubá
+            </div>
+
+            <div class="informacao">
+                 (11) 2166-4704
+            </div>
+
+            <div class="redeS">
+                <a href="" class="icone-luva"> <img src="images/facebook.png" alt="Facebook" style="margin-right: 10px;"> </a>
+                <a href="" class="icone-luva"> <img src="images/instagram(1).png" alt="instagram"> </a>
+            </div>
+    </div>
 
 </body>
 </html>
