@@ -321,16 +321,51 @@
 
     <!-- COMEÇO CONTATO  -->
 
-    <div class="grid-contato">
-        <img src="images/armostra.png" alt="Ar condicionado">
-
-        <div class="grid-form">
-            <h2 class="titulo2" id="contato"> Contato </h2>
-            <img class="linha5" src="../ArCondicionado/images/linha.svg" alt="Linha Divisória">
+    <div class="container">
+        <div class="armostra">
+            <img src="images/armostra.png" alt="">
         </div>
-
         
-    </div>
+        <div class="form">
+            <form action="#">
+
+                <div class="form-header">
+                    
+                    <div class="title">
+                        <h1 style="margin-left: 38%; margin-bottom: 10px;">Contato</h1>
+                    </div>
+
+                    <div class="linha5">
+                        <img src="images/linha.svg" alt="" >
+                    </div>
+                    
+                </div>
+               
+                <h2 style="text-align: center;"> Envie-nos uma Mensagem </h2>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="nome">Nome</label>
+                        <input id="nome" type="text" name="firstname" placeholder="Digite seu primeiro nome" required>
+                    </div>
+                    
+                    <div class="input-box">
+                        <label for="email">E-mail</label>
+                        <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="mesagem">Mensagem</label>
+                        <input id="email" type="text" name="email" placeholder="O que quer nos dizer?" required>
+                    </div>
+
+                </div>
+
+                <div class="continue-button">
+                    <button><a href="#">Enviar Mensagem</a> </button>
+                </div>
+            </form>
+        </div>
 
 </body>
 </html>
