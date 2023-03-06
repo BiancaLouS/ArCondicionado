@@ -20,3 +20,4 @@ constraint pk_tipos primary key (id));
 	 
 ALTER TABLE produto add CONSTRAINT fk_tipo FOREIGN KEY(id_tipo_produto) REFERENCES tipo(id);
 
+insert into
