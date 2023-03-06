@@ -31,10 +31,7 @@
                 <a href="#ens">Energia Solar</a>
                 <a href="#produtos">Geral</a>
               </div>
-            </li>
-
-
-            
+            </li>            
           </ul>
     </div>
 
