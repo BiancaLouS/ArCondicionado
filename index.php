@@ -321,13 +321,13 @@
 
     <!-- COMEÇO CONTATO  -->
 
-    <div class="container">
+    <div class="container" id="contato">
         <div class="armostra">
             <img src="images/armostra.png" alt="">
         </div>
         
         <div class="form">
-            <form action="#">
+            <form action="envia.php" name="form_contato" method="post">
 
                 <div class="form-header">
                     
@@ -345,18 +345,18 @@
 
                 <div class="input-group">
                     <div class="input-box">
-                        <label for="nome">  <strong> Nome </strong>   </label>
-                        <input id="nome" type="text" name="firstname" placeholder="Digite seu nome" required>
+                        <strong> Nome </strong>   
+                        <input type="text" name="nome_contato" placeholder="Digite seu nome" required>
                     </div>
                     
                     <div class="input-box">
-                        <label for="email"> <strong> E-mail </strong> </label>
-                        <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required>
+                        <strong> E-mail </strong> 
+                        <input type="email" name="email_contato" placeholder="Digite seu e-mail" required>
                     </div>
 
                     <div class="input-box">
-                        <label for="mesagem"> <strong> Mensagem </strong>  </label>
-                        <input id="email" type="text" name="email" placeholder="O que quer nos dizer?" required>
+                        <strong> Mensagem </strong>  
+                        <input  type="text" name="msg_contato" placeholder="O que quer nos dizer?" required>
                     </div>
 
                 </div>
