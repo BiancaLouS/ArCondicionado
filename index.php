@@ -215,7 +215,7 @@
 
             <div class="imagens-produtos" ng-show="arcondicionado">
             <?php while ($row = $arCondicionado->fetch_assoc()) { ?>
-                <a href="detalhes.php?id=<?php echo $row['id']; ?>" role="button">
+                <a href="produto_detalhe.php?id=<?php echo $row['id']; ?>" role="button">
                     <img src="../ArCondicionado/images/<?php echo $row['imagem']; ?>" alt="">
                 </a>
             <?php } ?>
@@ -223,7 +223,7 @@
 
         <div class="imagens-produtos" ng-show="inverter">
             <?php while ($row = $inverter->fetch_assoc()) { ?>
-                <a href="detalhes.php?id=<?php echo $row['id']; ?>" role="button">
+                <a href="produto_detalhe.php?id=<?php echo $row['id']; ?>" role="button">
                     <img src="../ArCondicionado/images/<?php echo $row['imagem']; ?>" alt="">
                 </a>
             <?php } ?>
@@ -231,7 +231,7 @@
 
         <div class="imagens-produtos" ng-show="multisplit">
             <?php while ($row = $multiSplit->fetch_assoc()) { ?>
-                <a href="detalhes.php?id=<?php echo $row['id']; ?>" role="button">
+                <a href="produto_detalhe.php?id=<?php echo $row['id']; ?>" role="button">
                     <img src="../ArCondicionado/images/<?php echo $row['imagem']; ?>" alt="">
                 </a>
             <?php } ?>
@@ -241,7 +241,7 @@
         <?php while ($row = $energiaSolar->fetch_assoc()) { ?>
             <tr>
                 <td>
-                    <a href="detalhes.php?id=<?php echo $row['id']; ?>" role="button">
+                    <a href="produto_detalhe.php?id=<?php echo $row['id']; ?>" role="button">
                         <img src="../ArCondicionado/images/<?php echo $row['imagem']; ?>">
                     </a>
                 </td>
