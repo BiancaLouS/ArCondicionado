@@ -14,7 +14,10 @@
     <div>
     
         <ul>
+          <a href="index.php">
             <img style="width: 40px; margin-left: 30px;" src="images/logo.png" alt="logo">
+          </a>
+            
             
             <li><a href="#contato">Contato</a></li>
             <li><a href="#sobre">Sobre Nós</a></li>

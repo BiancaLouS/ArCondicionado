@@ -1,5 +1,4 @@
 <?php 
-    //Consulta para recuperar os produtos do banco de dados
     include 'conn/connect.php';
     $arCondicionado = $conn->query("SELECT * FROM produto WHERE id_tipo_produto = 1 ORDER BY id;");
     $inverter = $conn->query("SELECT * FROM produto WHERE id_tipo_produto = 2 ORDER BY id;");
