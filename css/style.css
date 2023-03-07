@@ -426,3 +426,51 @@ ul {
 .icone-luva{
   cursor: url('../images/pointer.cur'), pointer;
 }
+
+
+/* inicio detalhes  */
+
+#container-main{
+  background-color: #e2e0e0;
+  border-radius: 25px;
+  margin: 15px;
+  display: flex;
+  position: relative;
+  margin-top: 90px;
+  justify-content: space-around;
+  
+}
+
+#container-main img{
+  width: 50%;
+  border-radius: 20px;
+}
+
+#container-main div{
+  margin: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.preco{
+  border-color: rgb(13, 19, 172);
+  border-radius: 10px;
+}
+
+.enviar-botao2 button {
+  width: 100%;
+  margin-top: 10px;
+  border: none;
+  background-color: rgb(13, 19, 172);
+  padding: 0.62rem;
+  border-radius: 5px;
+  cursor: url('../images/pointer.cur'), pointer;
+}
+
+.enviar-botao2 button a {
+  text-decoration: none;
+  font-size: 1.50rem;
+  color: #fff;
+  cursor: url('../images/pointer.cur'), pointer;
+  
+}

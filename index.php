@@ -216,7 +216,7 @@
             <div class="imagens-produtos" ng-show="arcondicionado">
             <?php while ($row = $arCondicionado->fetch_assoc()) { ?>
                 <a href="produto_detalhe.php?id=<?php echo $row['id']; ?>" role="button">
-                    <img src="../ArCondicionado/images/<?php echo $row['imagem']; ?>" alt="">
+                    <img src="images/<?php echo $row['imagem']; ?>" alt="">
                 </a>
             <?php } ?>
         </div>
@@ -224,7 +224,7 @@
         <div class="imagens-produtos" ng-show="inverter">
             <?php while ($row = $inverter->fetch_assoc()) { ?>
                 <a href="produto_detalhe.php?id=<?php echo $row['id']; ?>" role="button">
-                    <img src="../ArCondicionado/images/<?php echo $row['imagem']; ?>" alt="">
+                    <img src="images/<?php echo $row['imagem']; ?>" alt="">
                 </a>
             <?php } ?>
         </div>
@@ -232,7 +232,7 @@
         <div class="imagens-produtos" ng-show="multisplit">
             <?php while ($row = $multiSplit->fetch_assoc()) { ?>
                 <a href="produto_detalhe.php?id=<?php echo $row['id']; ?>" role="button">
-                    <img src="../ArCondicionado/images/<?php echo $row['imagem']; ?>" alt="">
+                    <img src="images/<?php echo $row['imagem']; ?>" alt="">
                 </a>
             <?php } ?>
         </div>
@@ -242,7 +242,7 @@
             <tr>
                 <td>
                     <a href="produto_detalhe.php?id=<?php echo $row['id']; ?>" role="button">
-                        <img src="../ArCondicionado/images/<?php echo $row['imagem']; ?>">
+                        <img src="images/<?php echo $row['imagem']; ?>">
                     </a>
                 </td>
             </tr>
@@ -309,7 +309,7 @@
                     </div>
 
                     <div class="linha5">
-                        <img src="images/linha.svg" alt="" >
+                        <img src="images/linha.svg" alt="linha" >
                     </div>
                     
                 </div>
