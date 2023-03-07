@@ -8,7 +8,7 @@ create table produto(
 id int not null auto_increment,
 id_tipo_produto int not null,
 nome varchar(100) not null,
-descricao varchar(255) not null,
+descricao text not null,
 preco  decimal(9,2) not null,
 imagem varchar(50) not null,
 constraint pk_produtos primary key (id));

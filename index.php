@@ -211,31 +211,31 @@
                 </ul>
             </div>
  
-
+        <div style="margin-left: 80px;">
             <div class="imagens-produtos" ng-show="arcondicionado">
-            <?php while ($row = $arCondicionado->fetch_assoc()) { ?>
-                <a href="produto_detalhe.php?id=<?php echo $row['id']; ?>" role="button">
-                    <img src="images/<?php echo $row['imagem']; ?>" alt="">
-                </a>
-            <?php } ?>
-        </div>
+                <?php while ($row = $arCondicionado->fetch_assoc()) { ?>
+                    <a href="produto_detalhe.php?id=<?php echo $row['id']; ?>" role="button">
+                        <img src="images/<?php echo $row['imagem']; ?>" alt="">
+                    </a>
+                <?php } ?>
+            </div>
 
-        <div class="imagens-produtos" ng-show="inverter">
-            <?php while ($row = $inverter->fetch_assoc()) { ?>
-                <a href="produto_detalhe.php?id=<?php echo $row['id']; ?>" role="button">
-                    <img src="images/<?php echo $row['imagem']; ?>" alt="">
-                </a>
-            <?php } ?>
-        </div>
+            <div class="imagens-produtos" ng-show="inverter">
+                <?php while ($row = $inverter->fetch_assoc()) { ?>
+                    <a href="produto_detalhe.php?id=<?php echo $row['id']; ?>" role="button">
+                        <img src="images/<?php echo $row['imagem']; ?>" alt="">
+                    </a>
+                <?php } ?>
+            </div>
 
-        <div class="imagens-produtos" ng-show="multisplit">
-            <?php while ($row = $multiSplit->fetch_assoc()) { ?>
-                <a href="produto_detalhe.php?id=<?php echo $row['id']; ?>" role="button">
-                    <img src="images/<?php echo $row['imagem']; ?>" alt="">
-                </a>
-            <?php } ?>
-        </div>
-
+            <div class="imagens-produtos" ng-show="multisplit">
+                <?php while ($row = $multiSplit->fetch_assoc()) { ?>
+                    <a href="produto_detalhe.php?id=<?php echo $row['id']; ?>" role="button">
+                        <img src="images/<?php echo $row['imagem']; ?>" alt="">
+                    </a>
+                <?php } ?>
+            </div>
+         </div>
     <div class="imagens-produtos" ng-show="energiasolar">
         <?php while ($row = $energiaSolar->fetch_assoc()) { ?>
             <tr>
