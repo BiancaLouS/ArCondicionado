@@ -351,6 +351,50 @@
                 <a href="" class="icone-luva"> <img src="images/instagram(1).png" alt="instagram"> </a>
             </div>
     </div>
+        
+</head>
+<body>
+
+<button onclick="topFunction()" id="botao-topo" title="Ir ao topo">Top</button>
+<script>
+
+let meubotao = document.getElementById("botao-topo");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    meubotao.style.display = "block";
+  } else {
+    meubotao.style.display = "none";
+  }
+}
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+$(document).ready(function(){
+  $("a").on('click', function(event) {
+
+    if (this.hash !== "") {
+      event.preventDefault();
+
+      
+      var hash = this.hash;
+
+      
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        window.location.hash = hash;
+      });
+    } 
+  });
+});
+</script>
+
 
 </body>
 </html>
